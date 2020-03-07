@@ -1,0 +1,25 @@
+.home-cover{
+   background-color: #161718;
+}
+.home-shop{
+   background-color: #ffffff;
+}
+.home-ourStory{
+   background-color: #161718;
+}
+.navigation-bar{
+   background-color: #161718;
+}
+.home-wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+ }
+ .memos-container {
+    margin-top: 110px;
+    padding: 12px;
+    height: calc(100vh - 140px);
+    overflow-y: scroll;
+ }
+ 

@@ -1,0 +1,49 @@
+.fab-wrapper {
+    height: 85px;
+    width: 85px;
+    background: linear-gradient(90deg, #ff7373 0%, #ff7373 100%);
+    border-radius: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .35s;
+    box-shadow: 0 2px 4px rgba(82, 84, 86, .75);
+ }
+ .fab-wrapper.addMode {
+    background: linear-gradient(90deg, rgba(255,115,115,1) 0%, rgba(230,148,100,1) 100%);
+    width: 90%;
+    justify-content: flex-start;
+ }
+ .fab-wrapper.addMode .material-icons {
+    transform: translateX(0);
+    margin-left: 20px;
+ }
+ .fab-input {
+    transform: translateX(50px);
+    outline: none;
+    width: 65%;
+    font-size: 24px;
+    color: #fff;
+    background-color: transparent;
+    border:none;
+    opacity: 0.25;
+    border-bottom: 1px solid white;
+ }
+ .fab-input::placeholder {
+    font-weight: 300;
+    color: rgba(255, 255, 255, .5);
+ }
+ .fab-input.addMode {
+    transform: translateX(0);
+    opacity: 1;
+ }
+  
+ .material-icons {
+    transform: translateX(18px);
+    font-size: 50px;
+    color: #fff;
+ }
+ 

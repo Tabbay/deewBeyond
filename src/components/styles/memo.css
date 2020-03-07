@@ -1,0 +1,10 @@
+.memo-wrapper {
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 20px;
+ }
+ p {
+    text-align: center;
+ }
+ 

@@ -1,0 +1,21 @@
+.btn-wrapper {
+    border-radius: 30px;
+    background-color: #ff7373;
+    display: flex;
+    width: 80%;
+    padding: 12px;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    transition: all .35s;
+    cursor: pointer;
+ }
+ .btn-wrapper.valid{
+    color: #ff7373;
+    background: white;
+    box-shadow: 0 2px 4px rgba(82, 84, 86, .5);
+ }
+ 

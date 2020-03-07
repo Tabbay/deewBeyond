@@ -1,0 +1,45 @@
+.login-wrapper {
+    width:100vw;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    padding-top: 25%;
+    overflow: hidden;
+ }
+  
+ .login-input {
+    padding: 6px;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    width: 75%;
+ }
+ .login-input.error {
+    border: 1px solid red;
+ }
+ .login-input.error input {
+    color: red;
+ }
+ .login-input.error input::placeholder {
+    color: red;
+ }
+ .login-input.valid {
+    border: 1px solid green;
+ }
+ .login-input.valid input {
+    color: green;
+ }
+ .login-input.valid input::placeholder {
+    color: green;
+ }
+  
+ .login-input input {
+    font-size: 24px;
+    color: #525456;
+    outline: none;
+    font-weight: 300;
+    border: none;
+ }
+ .login-input input::placeholder {
+    color: #c8c8c8;
+ }

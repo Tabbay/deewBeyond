@@ -1,0 +1,14 @@
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7373;
+    font-size: 24px;
+    color: #fff;
+    width: 100vw;
+    height: 100px;
+    font-weight: 500;
+    position: fixed;
+    top: 0;
+ }
+ 
