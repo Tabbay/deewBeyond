@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './styles/login.css';
 import Button from './Button';
-import firebase from '/Users/cerigoff/deew-beyond/src/Firebase';
-import db from '/Users/cerigoff/deew-beyond/src/Firebase';
+import firebase from '../Firebase';
+import db from '../Firebase';
 //import MyApp from './PaypalButton';
 
 function Login() {
@@ -27,7 +27,7 @@ function Login() {
     function ordersForUser(){
 
       var usersRef = db.collection("Users").doc("SF");
-  
+
       usersRef.get().then(function(doc) {
           if (doc.exists) {
               console.log("Document data:", doc.data());
@@ -38,7 +38,7 @@ function Login() {
       }).catch(function(error) {
           console.log("Error getting document:", error);
       });
-  
+
   }
 
   return (

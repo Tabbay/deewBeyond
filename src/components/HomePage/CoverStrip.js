@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '/Users/cerigoff/deew-beyond/src/components/styles/coverStrip.css';
+import '../../components/styles/coverStrip.css';
 import Button from '../Button';
-import logo from '/Users/cerigoff/deew-beyond/src/images/deewLogo.png'
+import deewLogo from '../../images/deewLogo.png';
 
 
 
@@ -12,7 +12,7 @@ function CoverStrip() {
   return (
     <div className='cover-wrapper'>
         <div className='title'>
-            <image src='/Users/cerigoff/deew-beyond/src/images/deewLogo.png' ></image>
+            <image src={deewLogo} ></image>
             <h1 className='fontDeew'>{title}</h1>
             <h3>{subtitle}</h3>
         </div>
