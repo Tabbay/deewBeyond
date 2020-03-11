@@ -10,14 +10,14 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 
 function App() {
+  const [showSidebar,setShowSidebar] = useState(false);
 
   return (
     <div>
 
         <div className='home-cover fontDeew'>
-            <Toolbar />
-            <SideDrawer />
-            <Backdrop />
+            <Toolbar toggleSidebar={setShowSidebar}/>
+            <SideDrawer isOpen={showSidebar} toggleSidebar={setShowSidebar}/>
             <main style={{marginTop: '64px'}}>
                 <p> THIS IS THE PAGE CONTENT! </p>
             </main>

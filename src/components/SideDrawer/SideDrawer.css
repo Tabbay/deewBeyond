@@ -8,8 +8,12 @@
   width: 70%;
   max-width: 400px;
   z-index: 200;
+  transition: all .3s;
+  transform: translateX(-100%);
 }
-
+.side-drawer.show{
+  transform: translateX(0);
+}
 .side-drawer ul{
   height: 100%;
   list-style: none;
@@ -29,4 +33,20 @@
 .side-drawer a:hover,
 .side-drawer a:active {
   color: orange;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  background: rgb(0,0,0);
+  opacity: 0;
+  z-index: 100;
+  display: none;
+}
+.backdrop.show {
+  display: block;
+  opacity: .3;
 }
