@@ -8,7 +8,8 @@
   width: 70%;
   max-width: 400px;
   z-index: 200;
-  transition: all .3s;
+  /* transition: all .3s; */
+  transition: transform 0.3s ease-out;
   transform: translateX(-100%);
 }
 .side-drawer.show{
@@ -49,4 +50,10 @@
 .backdrop.show {
   display: block;
   opacity: .3;
+}
+
+@media(min-width: 769px){
+  .side-drawer{
+    display: none;
+  }
 }

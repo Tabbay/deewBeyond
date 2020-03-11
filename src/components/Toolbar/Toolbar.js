@@ -5,7 +5,7 @@ const Toolbar = props => {
   return (
     <header className="toolbar">
       <nav className="toolbar_nav">
-        <i style={{cursor:'pointer'}} class="material-icons" onClick={() => props.toggleSidebar(true)}>menu</i>
+        <i style={{cursor:'pointer'}} class="material-icons toolbar-toggle-button" onClick={() => props.toggleSidebar(true)}>menu</i>
         <div className="spacer"> </div>
         <div className="toolbar_nav_items">
             <ul>
