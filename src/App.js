@@ -8,6 +8,7 @@ import Paypal from'./components/Paypal';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+import Shop from './components/Shop/Shop';
 
 function App() {
   const [showSidebar,setShowSidebar] = useState(false);

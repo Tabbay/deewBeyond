@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 56px;
-  background: purple;
+  background: #171917;
 }
 .spacer{
   flex:1;
@@ -16,7 +16,8 @@
   padding: 0 1rem;
 }
 .toolbar_nav_items a {
-  color: white;
+  color: #F2F2F0;
+  font-size: 20px;
   text-decoration: none;
 }
 .toolbar_nav_items ul{

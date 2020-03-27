@@ -1,5 +1,6 @@
 import React from 'react';
 import './Toolbar.css';
+import Shop from '../Shop/Shop';
 
 const Toolbar = props => {
   return (
@@ -10,7 +11,7 @@ const Toolbar = props => {
         <div className="toolbar_nav_items">
             <ul>
             <li><a href="/"> HOME </a></li>
-            <li><a href="/"> SHOP </a></li>
+            <li><a href='../Shop/Shop'> SHOP </a></li>
             <li><a href="/"> CART </a></li>
             </ul>
         </div>
