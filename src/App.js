@@ -6,15 +6,10 @@ import CoverStrip from './components/HomePage/CoverStrip';
 import Paypal from'./components/Paypal';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
-<<<<<<< HEAD
-import Backdrop from './components/Backdrop/Backdrop';
-import Shop from './components/Shop/Shop';
-=======
 import Cart from './components/Cart';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
->>>>>>> navigation
 
 function App() {
   const [showSidebar,setShowSidebar] = useState(false);
