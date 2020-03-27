@@ -1,5 +1,6 @@
 import React from 'react';
 import './Toolbar.css';
+import { Link } from 'react-router-dom'
 
 const Toolbar = props => {
   return (
@@ -9,9 +10,15 @@ const Toolbar = props => {
         <div className="spacer"> </div>
         <div className="toolbar_nav_items">
             <ul>
-            <li><a href="/"> HOME </a></li>
-            <li><a href="/"> SHOP </a></li>
-            <li><a href="/"> CART </a></li>
+            <Link to='/'>
+              <li>HOME</li>
+            </Link>
+            <Link>
+              <li>SHOP</li>
+            </Link>
+            <Link to='/cart'>
+              <li>CART</li>
+            </Link>
             </ul>
         </div>
       </nav>
@@ -19,4 +26,5 @@ const Toolbar = props => {
     </header>
   );
 }
+
 export default Toolbar;
