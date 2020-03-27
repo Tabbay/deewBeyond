@@ -4,11 +4,11 @@ import './styles/cart.css';
 //import MyApp from './PaypalButton';
 
 function Cart() {
-    /*var name = "Tresume";
+    var name = "Tresume";
     var desc = "Testing this out"
     var price = 30.99
 
-    Number.prototype.to_$ = function () {
+    /*Number.prototype.to_$ = function () {
     return "$" + parseFloat( this ).toFixed(2);
     };
     String.prototype.strip$ = function () {
@@ -153,7 +153,7 @@ function Cart() {
     app.renderTemplates();
     app.setProductImages();
     app.attachEvents();
-
+*/
   return (
     <div class="main">
     <h1>Shopping cart</h1>
@@ -210,7 +210,7 @@ function Cart() {
 
   </section>
 </div>
-  );*/
+  );
 }
 
 
