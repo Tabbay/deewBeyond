@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './styles/cart.css';
+import Paypal from'./Paypal';
 //import './src/Queries/userQuer'
 //import MyApp from './PaypalButton';
 
@@ -209,6 +210,8 @@ function Cart() {
     </footer>
 
   </section>
+
+      <Paypal/>
 </div>
   );
 }

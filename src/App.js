@@ -2,12 +2,11 @@ import React,{useState} from 'react';
 import './components/styles/home.css';
 import './components/styles/font.css';
 import './App.css';
-import CoverStrip from './components/HomePage/CoverStrip';
-import Paypal from'./components/Paypal';
+import Home from './components/HomePage/Home';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Cart from './components/Cart';
-
+import Shop from './components/Shop/Shop';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
@@ -20,16 +19,11 @@ function App() {
           <div className='home-cover fontDeew'>
               <Toolbar toggleSidebar={setShowSidebar}/>
               <Switch>
-                <Route path="/" exact component={CoverStrip}/>
-                <Route path="/Shop" />
+                <Route path="/" exact component={Home}/>
+                <Route path="/Shop" component={Shop}/>
                 <Route path="/Cart" component={Cart} />
               </Switch>
               <SideDrawer isOpen={showSidebar} toggleSidebar={setShowSidebar}/>
-              <main style={{marginTop: '64px'}}>
-                  <p> THIS IS THE PAGE CONTENT! </p>
-              </main>
-
-              <Paypal/>
           </div>
     </div>
    </Router>
