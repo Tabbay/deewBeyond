@@ -1,23 +1,16 @@
 import React, { useState } from 'react';
-import '../../components/styles/coverStrip.css';
-import Button from '../Button';
-import deewLogo from '../../images/deewLogo.png';
+import CoverStrip from '../CoverStrip/CoverStrip';
+import InfoStrip from '../InfoStrip/InfoStrip';
 
 
-
-function CoverStrip() {
-    var title = "DEEW BEYOND"
-    var subtitle="SMOKING SOLUTIONS"
+const Home = props =>{
 
   return (
-    <div className='cover-wrapper'>
-        <div className='title'>
-            <image src={deewLogo} ></image>
-            <h1 className='fontDeew'>{title}</h1>
-            <h3>{subtitle}</h3>
-        </div>
+    <div className= ''>
+        <CoverStrip/>
+        <InfoStrip/>
     </div>
   );
 }
 
-export default CoverStrip;
+export default Home;

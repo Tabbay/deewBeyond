@@ -1,0 +1,38 @@
+.infoStrip-wrapper {
+  width:100vw;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  background-color: #F2F2F0;
+  overflow: hidden;
+  height: 600px;
+ }
+ .flex-container {
+  height: 600px;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+h1,p,h4{
+  color: #171917;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+  background-color: pink;
+}
+
+.right {
+  width: 75%;
+    background-color: pink;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+}

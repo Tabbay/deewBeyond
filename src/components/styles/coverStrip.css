@@ -4,17 +4,24 @@
      display: block;
      justify-content: center;
      text-align: center;
-     padding-top:15%;
+     padding-top:20%;
      overflow: hidden;
+     background-image: url('../../images/Green Line.png');
+     /* background-size: 300px 100px; */
+     background-size: 1200px 1200px;
+     background-repeat: no-repeat;
+     /* transform: rotate(45deg); */
+
  }
  .title{
     display: inline-block;
  }
  h1 {
+
     text-decoration: none;
-    border-bottom: 5px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
     color: #ffffff;
-    font-size: 6em;
+    font-size: 70px;
     text-align: center;
     letter-spacing: 12px;
     margin-bottom: 0em;

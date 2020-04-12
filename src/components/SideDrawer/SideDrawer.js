@@ -1,5 +1,6 @@
 import React from 'react';
 import './SideDrawer.css';
+import { Link } from 'react-router-dom'
 
 const SideDrawer = props => (
    <>
@@ -7,9 +8,15 @@ const SideDrawer = props => (
       <nav className={props.isOpen ? "side-drawer show" : "side-drawer"}>
          <i style={{color:'#000',cursor:'pointer'}} class="material-icons" onClick={() => props.toggleSidebar(false)}>close</i>
          <ul>
-            <li><a href="/"> HOME </a></li>
-            <li><a href="/"> SHOP </a></li>
-            <li><a href="/"> CART </a></li>
+           <Link to='/'>
+               <li>HOME</li>
+           </Link>
+           <Link to = '/shop'>
+               <li>SHOP</li>
+           </Link>
+           <Link to='/cart'>
+               <li>CART</li>
+           </Link>
          </ul>
       </nav>
    </>
