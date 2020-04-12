@@ -1,20 +1,13 @@
 import React, { useState } from 'react';
 import './infoStrip.css';
 
-const InfoStrip = props =>{
+const InfoStrip = () =>{
 
   return (
     <div className='infoStrip-wrapper'>
-      <div className="row">
-          <div className="column left">
-              <h1>WWF</h1>
-              <p>The World Wide Fund for Nature (WWF) is....</p>
-          </div>
-
-          <div className="column right" >
-              <h4>Epcot Center</h4>
-              <p>The Epcot Center is a theme park in Disney World, Florida.</p>
-          </div>
+      <div className='main'>
+        <div className="column" style={{ background: "lightblue" }} />
+        <div className="column" style={{ background: "#fcfcfc" }} />
       </div>
     </div>
   );
