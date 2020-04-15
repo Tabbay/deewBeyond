@@ -8,6 +8,7 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Cart from './components/Cart';
 import Shop from './components/Shop/Shop';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/Cart" component={Cart} />
               </Switch>
               <SideDrawer isOpen={showSidebar} toggleSidebar={setShowSidebar}/>
+              <Footer/>
           </div>
     </div>
    </Router>

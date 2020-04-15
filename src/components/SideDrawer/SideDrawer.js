@@ -6,7 +6,7 @@ const SideDrawer = props => (
    <>
       <div className={props.isOpen ? "backdrop show" : "backdrop"} onClick={() => props.toggleSidebar(false)}/>
       <nav className={props.isOpen ? "side-drawer show" : "side-drawer"}>
-         <i style={{color:'#000',cursor:'pointer'}} class="material-icons" onClick={() => props.toggleSidebar(false)}>close</i>
+         <i style={{color:'#000',cursor:'pointer'}} className="material-icons" onClick={() => props.toggleSidebar(false)}>close</i>
          <ul>
            <Link to='/'>
                <li>HOME</li>

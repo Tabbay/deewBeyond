@@ -1,10 +1,122 @@
-.main-dv{
+.main-shop-dv {
   width:100vw;
-  height:1200px;
+  height: 100vh;
   background: #F2F2F0;
 }
-.button{
-  height: 200px;
-  width: 200px;
-  border-color: 1px solid #171917;
+.shop-columns {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr .5fr;
+}
+h2{
+  letter-spacing: 2.5px;
+  color: #171917;
+  margin-top: 45%;
+  text-align: center;
+  font-size: 35px;
+}
+h4{
+  margin-top: 10%;
+  letter-spacing: 2.5px;
+  color: #171917;
+  font-size: 25px;
+}
+p{
+  color: #171917;
+}
+.s-col{
+  height: 80vh;
+  padding: 5%;
+}
+.shop-img-col{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%
+}
+.product-details-col{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.product-img{
+  /* border:1px solid black; */
+  height: 550px;
+  width: 550px;
+  background-color: #F2F2F0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.prod-img-dets{
+  height: 550px;
+  width: 550px;
+}
+.add-to-cart-wrap{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-to-cart{
+  width: 300px;
+  height: 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #F2F2F0;
+  background-color: #597D35;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.add-to-cart:hover{
+  color: #171917;
+  background-color: white;
+  border: 1px solid #171917;
+}
+@media (max-width: 768px){
+  .main-shop-dv {
+    width:100vw;
+    height: 100vh;
+    background: #F2F2F0;
+  }
+  .shop-columns{
+    grid-template-columns: none;
+    grid-template-rows:80px 330px 400px 10px;
+  }
+  .product-img{
+    /* border:1px solid black; */
+    height: 300px;
+    width: 300px;
+  }
+  .prod-img-dets{
+    height: 300px;
+    width: 300px;
+  }
+  .shop-img-col{
+    margin-top: 0%
+
+  }
+  .s-col{
+    height: 0;
+    padding:2%;
+  }
+  h2{
+    font-size: 25px;
+    margin-top: 0;
+  }
+  h4{
+    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 0;
+  }
+  p{
+    font-size: 14px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
 }

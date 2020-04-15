@@ -54,6 +54,11 @@
   border-bottom: 3px solid #597D35;
 }
 
+.deewLogo{
+  width: 100px;
+  height: 100px;
+}
+
 
 @media (max-width: 768px){
   .toolbar_nav_items{

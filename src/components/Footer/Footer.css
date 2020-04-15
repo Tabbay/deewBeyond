@@ -1,0 +1,16 @@
+.footer-wrapper{
+  width: 100vw;
+  height: 5vh;
+  border-top: 1px solid white;
+  /* background-color: #171917; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.f-col{
+  height: 5vh;
+  color: #F2F2F0;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 2%;
+}
