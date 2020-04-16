@@ -10,7 +10,7 @@ function CoverStrip() {
 
   return (
       <div className='cover-wrapper'>
-          <div className='title'>
+          <div className='title fade-in'>
               <h1 className='fontDeew'>{title}</h1>
               <h3>{subtitle}</h3>
           </div>
